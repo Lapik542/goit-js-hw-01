@@ -1,7 +1,8 @@
-let age = 16;
+function makeTransaction() {
+    let quantity = 5;
+    console.log(quantity);
+    quantity *= 3000
 
-console.log(age)
-// Year tomorov
-age = 17;
-
-console.log(age)
+    console.log(quantity);
+}
+makeTransaction();
